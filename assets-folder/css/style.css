@@ -1,5 +1,9 @@
+html {
+    height: 100%;
+}
+
 .navbar {
-    background-color: #4aaaa5
+    background-color: #dacfa1
 }
 
 
@@ -13,25 +17,35 @@
 }
 
 h3 {
-    color: #4aaaa5;
+    color: #9da1a1;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
 }
 
+body {
+    background-image: url("../images/vintage-concrete.png")
+}
+
+.row {
+    background-color: #ffffff
+}
+    
 .container {
     padding-top: 30px;
     padding-bottom: 250px;
+    
 }
 
 a {
-    color: gray;
-    
-}z
+    color: #ffffff;
+}
 
-.bd-footer {
-    position: fixed;
-    height: 50px;
-    background-color: red;
-    margin-bottom: 0px;
-    bottom: 0px;
+p {
+    color: #777777;
+}
+
+.card {
+    color:#777777;
 }
 hr {
     width: 100%;
@@ -39,13 +53,15 @@ hr {
     padding-bottom: 15px;
 }
 
-.form-group {
-    padding-bottom: 10px;
+.container-fluid {
+    font-size: 10pt;
+
 }
 
-.container-fluid {
+footer {
     text-align: center;
-    font-size: 10pt;
+    background-color: #cec39e
+    
 }
 
 
