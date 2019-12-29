@@ -74,9 +74,10 @@ footer {
 }
 
 .img-thumbnail{
-    height: 200px;
+    height: 450px;
     border-radius: 1.25rem;
     width: 300px;
+    margin-bottom: 35px;
 }
 
 .col-sm-8{
